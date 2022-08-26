@@ -6,16 +6,16 @@ spring:
       datasource:
         # 订单 orders 数据源配置
         orders:
-          url: jdbc:mysql://127.0.0.1:3306/test_orders?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          url: jdbc:mysql://192.168.56.11:3306/test_orders?useSSL=false&useUnicode=true&characterEncoding=UTF-8
           driver-class-name: com.mysql.jdbc.Driver
           username: root
-          password:
+          password: yhblsqt1234
         # 用户 users 数据源配置
         users:
-          url: jdbc:mysql://127.0.0.1:3306/test_users?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          url: jdbc:mysql://192.168.56.12:3306/test_users?useSSL=false&useUnicode=true&characterEncoding=UTF-8
           driver-class-name: com.mysql.jdbc.Driver
           username: root
-          password:
+          password: yhblsqt1234
 
 # mybatis 配置内容
 mybatis:
